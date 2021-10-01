@@ -17,7 +17,7 @@ p{
 }
 .first-sec{
     margin-top: 80px;
-    display: block;
+    display: flex;
     height: 500px;
 }
 .first-part{
@@ -52,7 +52,7 @@ img{
     color: gray;
 }
 .second-sec{
-    display: block;
+    display: flex;
     height: 500px;
 }
 .work-img{
@@ -64,9 +64,9 @@ img{
     
 }
 .img-div{
-    height: 500px;
-    margin: auto;
-    width: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+
         
 }
 .center-text{
